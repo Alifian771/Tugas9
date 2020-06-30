@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace Tugas9
@@ -63,7 +63,7 @@ namespace Tugas9
             {
                 Console.Title = "Polymorphsim, Inheritance, Abstraction & Collection Part #2";
                 Console.WriteLine("===========================================");
-                Console.WriteLine("|| \t\t Tugas Lab 9 \t\t ||");
+                Console.WriteLine("|| \t\t Tugas 9 \t\t ||");
                 Console.WriteLine("|| \t\t 19.11.2672 \t\t ||");
                 Console.WriteLine("===========================================");
                 Console.WriteLine("Pilih Menu :");
@@ -123,17 +123,17 @@ namespace Tugas9
                     else if (jk == 3)
                     {
 
-                        Console.Write("Nik = ");
-                        string nik = Console.ReadLine();
-                        Console.Write("name = ");
-                        string name = Console.ReadLine();
-                        Console.Write("Jumlah Jual = ");
-                        int jumlahjual = int.Parse(Console.ReadLine());
-                        Console.Write("Komisi = ");
-                        int komisi = int.Parse(Console.ReadLine());
-                        string jenis = "Sales";
+                             Console.Write("Nik = ");
+                            string nik = Console.ReadLine();
+                            Console.Write("name = ");
+                            string name = Console.ReadLine();
+                            Console.Write("Jumlah Jual = ");
+                            int jumlahjual = int.Parse(Console.ReadLine());
+                            Console.Write("Komisi = ");
+                            int komisi = int.Parse(Console.ReadLine());
+                             string jenis = "Sales";
 
-                        tambahSales(jenis, nik, name, jumlahjual, komisi);
+                             tambahSales(jenis, nik, name, jumlahjual, komisi);
                     }
                     else
                     {
@@ -150,16 +150,16 @@ namespace Tugas9
                 }
                 else if (menu == 3)
                 {
-                    Console.WriteLine("===========================================");
-                    Console.WriteLine("|| \t\t Data Karyawan \t\t ||");
-                    Console.WriteLine("===========================================");
-                    Console.WriteLine();
-                    tampilanKaryawan();
-                    Console.WriteLine("\nTekan Enter Untuk Kembali");
+                        Console.WriteLine("===========================================");
+                        Console.WriteLine("|| \t\t Data Karyawan \t\t ||");
+                        Console.WriteLine("===========================================");
+                        Console.WriteLine();
+                        tampilanKaryawan();
+                        Console.WriteLine("\nTekan Enter Untuk Kembali");
                 }
                 else if (menu == 4)
                 {
-                    keluar = true;
+                        keluar = true;
                 }
                 Console.ReadLine();
             }
